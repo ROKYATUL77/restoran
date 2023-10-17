@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menu Makanan</title>
+    <style>
+        .pesanan {
+            margin: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Menu Restoran XYZ</h1>
+    <table border="1">
+        <tr>
+            <th>Makanan</th>
+            <th>Gambar</th>
+            <th>Harga</th>
+        </tr>
+        <tr>
+            <td>Ayam Goreng</td>
+            <td><img src="ayam.jpg" alt="Ayam Goreng" width="100" height="100"></td>
+            <td>Rp 25,000</td>
+        </tr>
+        <tr>
+            <td>Nasi Goreng</td>
+            <td><img src="nasigoreng.jpg" alt="Nasi Goreng" width="100" height="100"></td>
+            <td>Rp 20,000</td>
+        </tr>
+        <tr>
+            <td>Mie Goreng</td>
+            <td><img src="mie.jpg" alt="Mie Goreng" width="100" height="100"></td>
+            <td>Rp 18,000</td>
+        </tr>
+        <!-- Tambahkan baris-baris menu makanan lainnya di sini -->
+    </table>
+
+    <h2>Pesan Makanan</h2>
+    <form>
+        <label for="pesanan">Pesanan:</label>
+        <input type="text" id="pesanan" name="pesanan" placeholder="Masukkan pesanan Anda di sini">
+        <input type="submit" value="Pesan">
+    </form>
+
+    <h2>Daftar Pesanan Tersimpan</h2>
+    <div class="pesanan">
+        <p>Ayam Goreng</p>
+        <p>Nasi Goreng</p>
+        <!-- Tambahkan pesanan-pesanan yang disimpan di sini -->
+    </div>
+</body>
+</html>
